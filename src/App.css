@@ -1,0 +1,84 @@
+.App {
+  display: grid;
+  place-items: center;
+}
+
+.background {
+  transition: all ease 0.2s;
+  background-color: #414141;
+  height: 550px;
+  overflow: hidden;
+  width: 500px;
+}
+.background-exp {
+  transition: all ease 0.2s;
+  background-color: #414141;
+  height: 700px;
+  overflow: hidden;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-icon {
+  font-size: 30px;
+  color: #c3c3c3;
+}
+
+.content {
+  width: 440px;
+  height: 300px;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.avatar {
+  height: 80px;
+  margin-top: -50px;
+  width: 80px;
+  border: 5px solid white;
+  background-color: #fdc72b;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 38px;
+  color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.circle {
+  background-color: #e7e7e7;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+}
+
+.bottom-icons {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 30px;
+}
+
+.more {
+  transition: all ease 0.2s;
+  transform: translateY(120%);
+}
+
+.less {
+  transition: all ease 0.2s;
+}
+
+.bottom-icons {
+  padding-bottom: 10px;
+}
+.bottom-icons-hidden {
+  position: absolute;
+  transition: all ease 0.2s;
+  display: none;
+}
